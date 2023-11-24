@@ -1,0 +1,23 @@
+body {
+  background-color: grey;
+}
+
+header {
+  color: blue;
+}
+
+footer {
+  color: orange;
+}
+
+p {
+  font-family: cursive;
+  margin: 10px 50px 20px;
+  padding: 10% 0;
+}
+
+@media screen and (max-width: 600px) {
+    p {
+        background-color: yellow;
+    }
+}
